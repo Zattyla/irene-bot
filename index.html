@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irene Bot - A K-Pop Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #FF3366; /* Rosa/Vermelho oficial da Irene */
+            --bg-color: #0f0f13;
+            --card-bg: #1a1a24;
+            --text-main: #ffffff;
+            --text-muted: #a0a0b0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        /* 👑 Header Estético */
+        header {
+            padding: 2rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 51, 102, 0.2);
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            color: var(--primary);
+        }
+
+        /* 🚀 Seção Principal (Hero) */
+        .hero {
+            text-align: center;
+            padding: 100px 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            line-height: 1.2;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+        }
+
+        .hero p {
+            color: var(--text-muted);
+            max-width: 600px;
+            font-size: 1.1rem;
+        }
+
+        .btn-invite {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 40px;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 30px;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 51, 102, 0.4);
+        }
+
+        .btn-invite:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 51, 102, 0.6);
+        }
+
+        /* ✨ Features (As funções da Irene) */
+        .features {
+            padding: 50px 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 15px;
+            border-top: 4px solid var(--primary);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* 👟 Rodapé */
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-muted);
+            margin-top: 50px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">IRENE.SYS</div>
+    </header>
+
+    <section class="hero">
+        <h1>The Ultimate <br><span>K-Pop Assistant</span></h1>
+        <p>Elevate your Discord server with 24/7 radar tracking for global groups, automatic moderation, comeback countdowns, and Katty's exclusive AI Studio tools.</p>
+        <a href="#" class="btn-invite">Add to Discord</a>
+    </section>
+
+    <section class="features">
+        <div class="card">
+            <h3>📡 Global SNS Radar</h3>
+            <p>Never miss an update. Irene tracks YouTube and Reddit in real-time to bring you the latest MVs and teasers.</p>
+        </div>
+        <div class="card">
+            <h3>🛡️ Absolute Security</h3>
+            <p>Advanced Auto-Mod and a strict Banned List protocol to keep your community safe from trolls and inappropriate content.</p>
+        </div>
+        <div class="card">
+            <h3>🎙️ AI Studio Integration</h3>
+            <p>Direct access to Katty's AI Studio: make AI covers, isolate stems, and mix vocals right from the chat.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Irene System • Developed by Katty</p>
+    </footer>
+
+</body>
+</html>
