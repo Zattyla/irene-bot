@@ -1,8 +1,6 @@
 # 🐰 IRENE.SYS
 > A K-Pop & Utility Assistant for Discord, developed by Katty.
 
-![Irene Banner](https://cdn.discordapp.com/attachments/1470248480621592597/1485119729030009073/90e2d15f9f0aeb8f250b210072d14190.jpg)
-
 ## 📌 About The Project
 Irene is a state-of-the-art, custom-built Discord bot designed exclusively to manage, entertain, and protect K-Pop communities. From automated SNS tracking to advanced moderation, Irene keeps the server engaged and strictly organized.
 
