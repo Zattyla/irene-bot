@@ -2,7 +2,7 @@
 > A K-Pop & Utility Assistant for Discord, developed by Katty.
 
 ## 📌 About The Project
-Irene is a state-of-the-art, custom-built Discord bot designed exclusively to manage, entertain, and protect K-Pop communities. From automated SNS tracking to advanced moderation, Irene keeps the server engaged and strictly organized.
+Irene is a custom-built Discord bot designed exclusively to manage, entertain, and protect K-Pop communities. From automated SNS tracking to advanced moderation, Irene keeps the server engaged and strictly organized.
 
 ---
 
